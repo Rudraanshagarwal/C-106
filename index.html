@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Sound Controlled Alien</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Pacifico&family=Rubik+Distressed&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+                <h1 id="heading">Sound Controlled Alien</h1>
+                <h3>Note: Make diffrent sounds like clap snap and tap to make the aliens dance</h3>
+                <br>
+                <div id="main_div">
+                    <button onclick="start_classification()">Start</button>
+                    <h2>I can heaar -<span id="Noise"></span></h2>
+                    <h2>Accuracy -<span id="Accuracy"></span></h2>
+
+                    <div>
+                        <img src="aliens-01.png" id="img1">
+                        <img src="aliens-02.png" id="img2">
+                        <img src="aliens-03.png" id="img3">
+                        <img src="aliens-04.png" id="img4">
+                    </div>
+
+                </div>
+                <div id="My_Name">
+                <h4>Developed by Rudraansh</h4>
+                </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
